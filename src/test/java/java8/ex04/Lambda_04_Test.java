@@ -17,14 +17,17 @@ public class Lambda_04_Test {
     // tag::interfaces[]
     interface GenericPredicate<T> {
         // TODO
+    	
     }
 
     interface GenericMapper<T, E> {
         // TODO
+    	
     }
 
     interface Processor<T> {
         // TODO
+    	
     }
     // end::interfaces[]
 
@@ -48,6 +51,7 @@ public class Lambda_04_Test {
         private FuncCollection<T> filter(GenericPredicate<T> predicate) {
             FuncCollection<T> result = new FuncCollection<>();
             // TODO
+            
             return result;
         }
 
